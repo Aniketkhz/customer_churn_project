@@ -6,7 +6,6 @@ from sklearn.metrics import classification_report, confusion_matrix
 import joblib
 import os
 
-# Load dataset
 data = pd.read_csv('data/customer_churn.csv')
 
 # Drop customerID if it exists
