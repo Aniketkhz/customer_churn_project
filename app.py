@@ -163,7 +163,7 @@ def predict():
         prediction = model.predict(input_df)
         prediction_proba = model.predict_proba(input_df)[:, 1]
         
-        # Prepare resp
+        # Prepare res
         result = {
             "churn_prediction": int(prediction[0]),
             "churn_probability": float(prediction_proba[0]),
