@@ -159,7 +159,7 @@ def predict():
         # Reorder columns to match training
         input_df = input_df[feature_columns]
         
-        # Make prediction
+        # Make predictio
         prediction = model.predict(input_df)
         prediction_proba = model.predict_proba(input_df)[:, 1]
         
