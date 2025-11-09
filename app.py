@@ -152,7 +152,7 @@ def predict():
         for col in feature_columns:
             if col not in input_df.columns:
                 input_df[col] = 0
-    
+
         # Remove extra colum
         input_df = input_df[[col for col in input_df.columns if col in feature_columns]]
         
