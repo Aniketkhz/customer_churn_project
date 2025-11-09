@@ -153,7 +153,7 @@ def predict():
             if col not in input_df.columns:
                 input_df[col] = 0
         
-        # Remove extra columns that
+        # Remove extra columns tha
         input_df = input_df[[col for col in input_df.columns if col in feature_columns]]
         
         # Reorder columns to match training
