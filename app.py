@@ -156,7 +156,7 @@ def predict():
 
         input_df = input_df[[col for col in input_df.columns if col in feature_columns]]
         
-        # Reorder columns to match 
+        # Reorder columns to match
         input_df = input_df[feature_columns]
         
     
