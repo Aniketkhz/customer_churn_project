@@ -147,6 +147,8 @@ def predict():
         
         # One-hot encode categorical features
         input_df = pd.get_dummies(input_df, drop_first=True)
+
+        # Ensure all feature columns are present
         for col in feature_columns:
             if col not in input_df.columns:
                 input_df[col] = 0
