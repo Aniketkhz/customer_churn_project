@@ -142,7 +142,7 @@ def predict():
             except:
                 processed_data['TotalCharges'] = 0
         
-        # Create DataFrame fr
+        # Create DataFrame f
         input_df = pd.DataFrame([processed_data])
         
         # One-hot encode categorical features
