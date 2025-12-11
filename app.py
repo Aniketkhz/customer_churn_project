@@ -124,7 +124,7 @@ def predict():
                 "timestamp": datetime.now().isoformat()
             }), 400
         
-        # Log prediction request (optional - remove in production if need
+        # Log prediction request (optional - remove in production if nee
         print(f"🔍 Prediction request received at {datetime.now()}")
         
         # Create a copy to avoid modifying original data
