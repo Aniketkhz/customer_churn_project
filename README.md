@@ -7,14 +7,14 @@ This project aims to predict customer churn using machine learning techniques. T
 ```
 customer_churn_project/
 ├── data/
-│   └── customer_churn.csv        # Dataset for customer churn (download manually)
+│   └── customer_churn.csv       # Dataset for customer churn (download manually)
 ├── model/
-│   └── churn_artifacts.pkl       # Trained model and feature columns
+│   └── churn_artifacts.pkl      # Trained model and feature columns
 ├── notebooks/                   # Optional Jupyter notebooks for analysis
 ├── train.py                     # Script for training the model
 ├── app.py                       # Flask API for predictions
 ├── test_request.py              # Script to test the API
-├── requirements.txt              # Project dependencies
+├── requirements.txt             # Project dependencies
 └── README.md                    # Project documentation
 ```
 
